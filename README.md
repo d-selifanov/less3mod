@@ -2,7 +2,9 @@
 go mod init github.com/d-selifanov/less3mod
 touch less3mod.go
 ```
-copy code to less3mod
+copy code to less3mod from lesson2
+
+commit, push and add tag v0.0.1
 
 ```
 git add -A
