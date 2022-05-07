@@ -22,13 +22,17 @@ sed -i 's/less3mod/less3mod\/v2/g' v2/go.mod
 git add -A
 git commit -a -m "add module v2"
 git push
-git tag -a v2.0.1 -m "module ver 2.0.1"
+git tag -a v2.0.0 -m "module ver 2.0.0"
 git push origin --tags
 ```
 
 check versions
 
 ```
+go get github.com/d-selifanov/less3mod
+go: downloading github.com/d-selifanov/less3mod v0.0.1
 
+go get github.com/d-selifanov/less3mod/v2
+go: downloading github.com/d-selifanov/less3mod/v2 v2.0.0
 ```
 
